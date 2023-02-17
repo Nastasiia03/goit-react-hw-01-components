@@ -1,25 +1,22 @@
-import { Profile } from "./profile";
+import { Profile } from "./profile/profile";
 import user from '../user.json'; 
-import { Statistics } from "./statistics";
+import { Statistics } from "./statistics/statistics";
 import data from "../data.json"
 import { Friendlist } from "./friendlist";
 import friends from "../friends.json";
+import { TransactionHistory } from "./transactionhistory";
+import transactions from "../transactions.json";
+import { GlobalStyle } from "./globalstyle";
+import { Layout } from "./layout";
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
+   <Layout>
+      <GlobalStyle/>
       <Profile user={user} />
       <Statistics title="Upload stats" stats={data} />
       <Friendlist friends={friends} />
-    </div>
+      <TransactionHistory transactions={transactions} />
+    </Layout>
   );
 };
