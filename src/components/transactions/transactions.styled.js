@@ -5,7 +5,7 @@ background-color: #2BBBD8;
 `
 
 export const Th = styled.th`
-width: 105px;
+width: 150px;
 height: 30px;
 color: white;
 `

@@ -5,11 +5,13 @@ width: 340px;
 box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 height: 100%;
 padding-top: 25px;
+margin-bottom: 30px;
 `
 
 export const Title = styled.h2`
 text-align: center;
 margin-bottom: 30px;
+font-size: 25px;
 `
 export const List = styled.ul`
 display: flex; 

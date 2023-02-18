@@ -4,7 +4,7 @@ import { getRandomHexColor, Item, Label, List, Percentage, Section, Title } from
 export const Statistics = ({title, stats}) => {
     return (
         <Section>
-            <Title>{title}</Title>
+            {title !== 0 && (<Title>{title}</Title>)}
         <List>
             {stats.map(stat => (<Item key={stat.id} style={{backgroundColor: getRandomHexColor()}}>
                 <Label>{stat.label}</Label>

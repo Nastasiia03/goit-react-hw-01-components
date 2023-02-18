@@ -10,6 +10,9 @@ width: 230px;
 }
 box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 padding: 10px 10px;
+&:last-child {
+    margin-bottom: 30px;
+}
 `
 
 export const Status = styled.span`
