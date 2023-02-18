@@ -8,5 +8,5 @@ export const Layout = styled.div`
   padding-top: 40px;
   max-width: 1280px;
 display: flex;
-gap: 30px;
+gap: 20px;
 `

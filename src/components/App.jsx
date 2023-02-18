@@ -4,7 +4,7 @@ import { Statistics } from "./statistics/statistics";
 import data from "../data.json"
 import { Friendlist } from "./friends/friendlist";
 import friends from "../friends.json";
-import { TransactionHistory } from "./transactionhistory";
+import { TransactionHistory } from "./transactions/transactionhistory";
 import transactions from "../transactions.json";
 import { GlobalStyle } from "./globalstyle";
 import { Layout } from "./layout";
